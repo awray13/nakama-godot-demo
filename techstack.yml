@@ -1,0 +1,76 @@
+repo_name: awray13/nakama-godot-demo
+report_id: 775d0d187c8fd16beba728a6293bab12
+version: 0.1
+repo_type: Public
+timestamp: '2024-04-29T14:23:51+00:00'
+requested_by: NathanLovato
+provider: github
+branch: master
+detected_tools_count: 6
+tools:
+- name: GLSL
+  description: A high-level C-style language
+  website_url: https://www.khronos.org/opengl/wiki/Core_Language_(GLSL)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6548/default_a66025fbe8f221c489bdaac3a99d84e5f138cbbd.png
+  detection_source_url: https://github.com/awray13/nakama-godot-demo
+  detection_source: Repo Metadata
+- name: Lua
+  description: Powerful, fast, lightweight, embeddable scripting language
+  website_url: http://www.lua.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2118/128px-Lua-Logo.svg.png
+  detection_source_url: https://github.com/awray13/nakama-godot-demo
+  detection_source: Repo Metadata
+- name: CockroachDB
+  description: A distributed SQL database that scales fast, survives disaster, and
+    thrives everywhere
+  website_url: https://www.cockroachlabs.com/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/7260/default_e971350de38efca4ebed24e8682c82703629a4e3.png
+  detection_source_url: https://github.com/awray13/nakama-godot-demo/blob/master/nakama/docker-compose.yml
+  detection_source: nakama/docker-compose.yml
+  last_updated_by: Nathan Lovato
+  last_updated_on: 2020-05-14 00:21:53.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/awray13/nakama-godot-demo
+  detection_source: Repo Metadata
+- name: cURL
+  description: Command Line Tool and Library for Transferring Data With URLs
+  website_url: http://curl.haxx.se/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: File Transfer
+  image_url: https://img.stackshare.io/service/6552/curl-logo.png
+  detection_source_url: https://github.com/awray13/nakama-godot-demo/blob/master/nakama/docker-compose.yml
+  detection_source: nakama/docker-compose.yml
+  last_updated_by: Francois Belair
+  last_updated_on: 2020-04-02 21:01:41.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/awray13/nakama-godot-demo
+  detection_source: Repo Metadata
